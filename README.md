@@ -14,7 +14,10 @@ To run the application:
 
 ## Interacting with API Endpoints
 The following RESTful endpoints are available:
-- `/predict`: POST request to predict the price of a device by sending its specifications.
+- POST /devices: Retrieve a list of all devices
+- GET /devices/{id}: Retrieve details of a specific device by ID.
+- POST /add: Add a new device.
+- POST /predict: request to predict the price of a device by sending its specifications.
 
 ## Usage
 1. Train the machine learning model using `model.ipynb`.
